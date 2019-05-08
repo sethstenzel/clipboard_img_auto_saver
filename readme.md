@@ -10,7 +10,9 @@ pip install pillow pywin32
 
 ## Usage
 
-A batch file is provided to launch and manage the python script.
+1. Add the file save path to the save_path.cfg file.
+2. Run the start_stop.bat file. The batch file is provided to launch and manage the python script.
+
 I did try and user pyinstaller to make a bin file at one point but there was some sort of failure and I don't have time to try and troubleshoot it.
 
 ## Contributing
