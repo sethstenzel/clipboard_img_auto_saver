@@ -25,6 +25,9 @@ Notes:
 `py clipboard_img_auto_saver.py
 echo Press any key to continue and kill script...`
 if someone who can actually code (i cant) wants to fix it that would be awesome. 
+
+-also this script uses quite a bit of cpu currently, i(epiicpenguin) assume its because its constantly checking new screenshots with no wait time, it needs some work. 
+
 -I did try and user pyinstaller to make a bin file at one point but there was some sort of failure and I don't have time to try and troubleshoot it.
 
 ## Contributing
