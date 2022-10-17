@@ -24,7 +24,8 @@ Saving image...
 
 ## Notes:
 -(from Epiic Penguin) : i broke the bit in the .bat after:
-```py clipboard_img_auto_saver.py
+```
+py clipboard_img_auto_saver.py
 echo Press any key to continue and kill script...
 ```
 if someone who can actually code (i cant) wants to fix it that would be awesome. 
