@@ -24,8 +24,9 @@ Saving image...
 
 ## Notes:
 -(from Epiic Penguin) : i broke the bit in the .bat after:
-`py clipboard_img_auto_saver.py
-echo Press any key to continue and kill script...`
+```py clipboard_img_auto_saver.py
+echo Press any key to continue and kill script...
+```
 if someone who can actually code (i cant) wants to fix it that would be awesome. 
 
 -also this script uses quite a bit of cpu currently, i (epiicpenguin) assume its because its constantly checking for new screenshots with no wait time but im not a coder, this  needs some work. 
