@@ -20,7 +20,7 @@ Saving image...
 `
 6. to stop autosaving simply close the CMD window. 
 
-Notes:
+## Notes:
 -(from Epiic Penguin) : i broke the bit in the .bat after:
 `py clipboard_img_auto_saver.py
 echo Press any key to continue and kill script...`
