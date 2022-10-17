@@ -2,18 +2,37 @@ Clipboard Image Auto Saver is a Python script which monitors the windows clipboa
 
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install packages pywin32, and pillow.
+1. Use the package manager [pip](https://pip.pypa.io/en/stable/) to install the packages "pywin32", and "pillow".
+(type into windows Command Prompt)
 
 ```bash
-pip install pillow pywin32
+ py -m pip install pillow pywin32
 ```
+2. On this github page click code > download .zip
+3. Extract the zip and add your desired screenshot save path to the save_path.cfg file, so it looks like this
+
+`C:\Users\yourusername\Desktop\ScreenShots\`
 
 ## Usage
 
-1. Add the file save path to the save_path.cfg file.
-2. Run the start_stop.bat file. The batch file is provided to launch and manage the python script.
+4. Run the start_stop.bat file. The batch file is provided to launch and manage the python script. it should pop up a window that lists the folder you defined in step 3. the python window needs to be running when ever you want to autosave. 
+5. Use WindowKey + Shift +S to take a screenshot, the cmd window should say:
+`Attempting to keep transparency...
+Saving image...
+`
+6. to stop autosaving simply close the CMD window. 
 
-I did try and user pyinstaller to make a bin file at one point but there was some sort of failure and I don't have time to try and troubleshoot it.
+## Notes:
+-(from Epiic Penguin) : i broke the bit in the .bat after:
+```
+py clipboard_img_auto_saver.py
+echo Press any key to continue and kill script...
+```
+if someone who can actually code (i cant) wants to fix it that would be awesome. 
+
+-also this script uses quite a bit of cpu currently, i (epiicpenguin) assume its because its constantly checking for new screenshots with no wait time but im not a coder, this  needs some work. 
+
+-I did try and user pyinstaller to make a bin file at one point but there was some sort of failure and I don't have time to try and troubleshoot it.
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
