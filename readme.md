@@ -14,7 +14,7 @@ Clipboard Image Auto Saver is a Python script which monitors the windows clipboa
 
 ## Usage
 
-4. Run the start_stop.bat file. The batch file is provided to launch and manage the python script. it should pop up a window that lists the folder you defined in step 3. the python window needs to be running when ever you want to autosave. (you can also run it in the background with pythonw)
+4. Run the start_stop.bat file. The batch file is provided to launch and manage the python script. it should pop up a window that lists the folder you defined in step 3. the python window needs to be running when ever you want to autosave. 
 
 5. to stop autosaving simply close the window. 
 
