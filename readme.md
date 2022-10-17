@@ -2,17 +2,23 @@ Clipboard Image Auto Saver is a Python script which monitors the windows clipboa
 
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install packages pywin32, and pillow.
+1. Use the package manager [pip](https://pip.pypa.io/en/stable/) to install the packages "pywin32", and "pillow".
+(type into windows Command Prompt)
 
 ```bash
-pip install pillow pywin32
+ py -m pip install pillow pywin32
 ```
+2. On this github page click code > download .zip
+3. Extract the zip and add your desired screenshot save path to the save_path.cfg file, so it looks like this
+
 
 ## Usage
 
-1. Add the file save path to the save_path.cfg file.
-2. Run the start_stop.bat file. The batch file is provided to launch and manage the python script.
+4. Run the start_stop.bat file. The batch file is provided to launch and manage the python script. it should pop up a window that lists the folder you defined in step 3. the python window needs to be running when ever you want to autosave. (you can also run it in the background with pythonw)
 
+5. to stop autosaving simply close the window. 
+
+Notes:
 I did try and user pyinstaller to make a bin file at one point but there was some sort of failure and I don't have time to try and troubleshoot it.
 
 ## Contributing
