@@ -11,6 +11,8 @@ Clipboard Image Auto Saver is a Python script which monitors the windows clipboa
 2. On this github page click code > download .zip
 3. Extract the zip and add your desired screenshot save path to the save_path.cfg file, so it looks like this
 
+`C:\Users\yourusername\Desktop\ScreenShots\`
+
 ## Usage
 
 4. Run the start_stop.bat file. The batch file is provided to launch and manage the python script. it should pop up a window that lists the folder you defined in step 3. the python window needs to be running when ever you want to autosave. 
